@@ -94,8 +94,6 @@ public:
 
 class BufferedStream : public DecoratorStream{
     
-    Stream* stream;//...
-    
 public:
     BufferedStream(Stream* stm):DecoratorStream(stm){
         
